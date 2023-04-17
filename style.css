@@ -1,0 +1,41 @@
+@import url("css/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("css/menu.css");
+@import url("css/header.css");
+@import url("css/curso.css");
+@import url("css/matriz.css");
+@import url("css/turmas.css");
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url("font/GothamHTF-Bold.otf");
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url("font/GothamHTF-Book.otf");
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url("font/GothamHTF-Medium.otf");
+}
+
+:root {
+    --font-Gotham-Bold: "Gotham-Bold";
+    --font-Gotham-Book: "Gotham-Book";
+    --font-Gotham-Medium: "Gotham-Medium";
+    --font-Roboto: 'Roboto', sans-serif;
+    --preto: #000000;
+    --cor-principal: #151819;
+    --cinza: #616D72;
+    --cinza-claro: #91A3AD;
+    --magenta: #ED145B;
+    --branco: #ffffff;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}

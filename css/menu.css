@@ -1,0 +1,28 @@
+.menu {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-principal);
+}
+
+.link {
+    font-size: 1.5rem;
+    font-family: var(--font-Gotham-Medium);
+    padding: 2em;
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.btn {
+    width: 12em;
+    background-color: transparent;
+    color: var(--magenta);
+    border-color: var(--magenta);
+    padding: 0.7em;
+}
+
+.btn:hover {
+    background-color: var(--magenta);
+    color: var(--branco);
+}

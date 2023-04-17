@@ -1,0 +1,57 @@
+.curso {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10em;
+
+}
+
+.curso__informacoes {
+    width: 50%;
+    color: var(--cinza);
+    margin-right: 10em;
+}
+
+.curso__conteudo {
+    width: 50%;
+    border-left: solid var(--cinza);
+    padding: 5rem;
+}
+
+.curso__informacoes-titulo, .curso__conteudo-titulo {
+    margin-bottom: 3rem;
+}
+
+.curso__informacoes-titulo {
+    font-family: var(--font-Gotham-Book);
+    font-size: 5rem;
+    color: var(--cinza-claro);
+}
+
+.curso__informacoes-paragrafo {
+    font-family: var(--font-Roboto);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--cinza-claro);
+    line-height: 1.7em;
+}
+
+.curso__conteudo-titulo {
+    font-family: var(--font-Gotham-Bold);
+    font-size: 2rem;
+    color: var(--magenta);
+}
+
+.curso__conteudo-paragrafo {
+    font-family: var(--font-Roboto);
+    font-size: 2rem;
+    color: var(--cinza);
+    line-height: 1.7em;
+}
+
+.main-bg {
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--preto);
+}
+
